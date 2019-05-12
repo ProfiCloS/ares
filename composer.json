@@ -1,0 +1,30 @@
+{
+    "name": "proficlos/ares",
+    "description": "Ares",
+    "require": {
+        "php": ">=7.1",
+        "nette/utils": "^2.4 || ^3.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "proficlos/validators": "^1.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "homepage": "https://github.com/ProfiCloS/ares",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PROFI CLOUD SERVICES",
+            "email": "info@profiservices.cloud"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "config": {
+        "platform": {
+            "php": "7.1"
+        }
+    }
+}
